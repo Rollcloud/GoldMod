@@ -1,6 +1,7 @@
 ![Gold Mod](https://raw.githubusercontent.com/TheSlaylord/GoldMod/update/sprites/items/goldIngot.png)
 # The Gold Mod
-My first mod for Anuke's Mindustry. It adds new turrets, factories, items, zones and units to the game.
+An adaption of [TheSlaylord/GoldMod](https://github.com/TheSlaylord/GoldMod) for Anuke's Mindustry with fixes applied in an attempt to solve campaign launching issues.
+It adds new turrets, factories, items, zones and units to the game.
 ## Let's get started. 
 ### ![Gold Ingot](https://raw.githubusercontent.com/TheSlaylord/GoldMod/update/sprites/items/goldIngot.png) Gold Ingot
 A first tier and the main resource of the mod. You'll want to get much of it. You need a Laser/Airblast drill to mine the ore. Then you need to put the ores into the Gold Crucible to smelt your gold. Finally, you'd want to transport molten gold to the Gold Forge. Great, you've just got your first gold ingots! Use them to research and build defenses and to make ammunition for turrets!
