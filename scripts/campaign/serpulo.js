@@ -2,7 +2,7 @@
 const goldMountains = new SectorPreset("goldMountains", Planets.serpulo, 10);
 goldMountains.captureWave = 30;
 goldMountains.objectives = Seq.with(
-new Objectives.SectorComplete(SectorPresets.stainedMountains),
+new Objectives.SectorComplete(SectorPresets.stainedMountains).complete(),
 // new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldCrucible")),
 // new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldForge")),
 new Objectives.Research(Blocks.laserDrill)
