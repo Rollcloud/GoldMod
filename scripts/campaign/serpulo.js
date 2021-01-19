@@ -1,12 +1,12 @@
 //serpulo presets
 const goldMountains = new SectorPreset("goldMountains", Planets.serpulo, 10);
 goldMountains.captureWave = 30;
-goldMountains.objectives = Seq.with(
-new Objectives.SectorComplete(SectorPresets.stainedMountains).complete(),
-// new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldCrucible")),
-// new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldForge")),
-new Objectives.Research(Blocks.laserDrill)
-);
+// goldMountains.objectives = Seq.with(
+// new Objectives.SectorComplete(SectorPresets.stainedMountains).complete(),
+// // new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldCrucible")),
+// // new Objectives.Research(Vars.content.getByName(ContentType.block, "goldmod-goldForge")),
+// new Objectives.Research(Blocks.laserDrill).complete()
+// );
 goldMountains.alwaysUnlocked = true;
 
 const goldMines = new JavaAdapter(SectorPreset, {}, "goldMines", Planets.serpulo, 34);
